@@ -10,7 +10,7 @@ const Hero = ({ onGetTicket }) => (
 
     {/* Layer 1: Farthest Mountains */}
     <Parallax
-      speed={30}
+      speed={-50}
       // CHANGE 1: Container is now full height
       className="absolute bottom-0 left-0 w-full h-full z-10"
     >
@@ -24,7 +24,7 @@ const Hero = ({ onGetTicket }) => (
 
     {/* Layer 2: Closer Mountains */}
     <Parallax
-      speed={-20}
+      speed={50}
       // CHANGE 1: Container is now full height
       className="absolute bottom-0 left-0 w-full h-full z-20"
     >
