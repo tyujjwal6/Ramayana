@@ -7,16 +7,14 @@ import { images } from '../../assets';
 const Hero = ({ onGetTicket }) => (
   <section id="home" className="relative h-screen min-h-[600px] w-full flex flex-col items-center justify-center text-center text-white overflow-hidden">
     <div className="absolute inset-0 bg-gradient-to-b from-[#F3A381] to-[#E995A9] z-0" />
-    <Parallax speed={-25} className="absolute bottom-0 left-0 w-full h-3/4">
+    <Parallax speed={-30} className="absolute bottom-0 left-0 w-full h-3/4">
    <img src="/Mountains.jpg" alt="Mountains" className="w-full h-full object-cover" />
     </Parallax>
-    <Parallax speed={-15} className="absolute bottom-0 left-0 w-full h-2/3">
+    <Parallax speed={-10} className="absolute bottom-0 left-0 w-full h-2/3">
            <img src="/Mountains1.jpg" alt="Mountains" className="w-full h-full object-cover" />
 
     </Parallax>
-    <Parallax speed={5} className="absolute bottom-0 left-0 w-full h-1/2">
-        
-    </Parallax>
+    
     <div className="relative z-10 flex flex-col items-center px-4">
       <div className="absolute top-[-5rem] w-full">
         <Navbar />
