@@ -2,13 +2,12 @@
 
 export const images = {
   templeSilhouette: 'https://i.imgur.com/sI8x1aY.png',
-  mountains1: 'https://i.imgur.com/uG4Xg8K.png',
-  mountains2: 'https://i.imgur.com/3sFm2WJ.png',
+ 
   videoThumbnail: 'https://images.pexels.com/photos/1231023/pexels-photo-1231023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-  art1: 'https://images.pexels.com/photos/2253832/pexels-photo-2253832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-  art2: 'https://images.pexels.com/photos/10411333/pexels-photo-10411333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-  art3: 'https://images.pexels.com/photos/1020052/pexels-photo-1020052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-  art4: 'https://images.pexels.com/photos/1388944/pexels-photo-1388944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  art1: '/public/ad1.png',
+  art2: '/public/ad2.png',
+  art3: '/public/ad3.png',
+  art4: '/public/ad4.png',
   puppet: 'https://images.pexels.com/photos/1388944/pexels-photo-1388944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   gamelan: 'https://images.pexels.com/photos/1010519/pexels-photo-1010519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   testimonial1: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
