@@ -6,7 +6,7 @@ const Navbar = ({ isFooter = false }) => {
   const linkClass = "hover:text-primary transition-colors";
 
   return (
-    <nav className="flex items-center justify-between w-full">
+    <nav className="flex items-center justify-between  w-full">
       <h1 className={`font-display text-2xl tracking-widest ${navClass}`}>RAMAYANA</h1>
       <div className={`hidden md:flex items-center gap-8 font-medium ${navClass}`}>
         <a href="#home" className={linkClass}>Home</a>
